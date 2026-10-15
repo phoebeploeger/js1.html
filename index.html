@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Learnig JavaScript</title>
+</head>
+<body>
+
+<h1>Learning JavaScript with some HTML documents.</h1>
+
+<p> First number? <input id= "fn"> <br>
+Second number? <input id="sn"> <br>
+<button onclick="add()"> + </button>
+
+</p>
+<p>
+  Your Answer <span id="ans"> _______ </span></p>
+<scipt>
+function add() {
+let a = document.getElementById("fn").value;
+let b = document.getElementById("sn").value;
+let c = Number(a) + Number(b);
+document.getElementById("ans").innerHTML = c;
+}
+
+
+</scipt> 
+
+</body>
+</html>
